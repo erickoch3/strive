@@ -1,0 +1,17 @@
+{
+    "plugins": [
+      ["module-resolver", {
+        "root": ["./src/"],
+        "alias": {
+            "@app": "./src",
+            "@core": "./src/core",
+            "@assets": "./src/assets",
+            "@goals": "./src/modules/goals",
+            "@truths": "./src/modules/truths",
+            "@notes": "./src/modules/notes",
+            "@settings": "./src/modules/settings",
+        }
+      }]
+    ]
+  }
+  
